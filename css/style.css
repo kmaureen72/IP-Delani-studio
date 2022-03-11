@@ -11,6 +11,9 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
 }
+.welcome h3 {
+  padding-top: 24px;
+}
 #mouse {
   padding: 15px;
   margin-top: 5%;
@@ -37,4 +40,85 @@
 }
 .toggle {
   text-align: center;
+  padding: 3%;
+}
+.text {
+  display: none;
+}
+.card {
+  margin: 10px 0;
+  position: relative;
+  overflow: hidden;
+}
+.card:hover img {
+  transform: scale(1.3);
+  transition: all 0.4s ease;
+}
+.images {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin: 5px;
+}
+.overlay {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 50px 10px;
+  padding-top: 30px;
+  border: 2px solid whitesmoke;
+  font-size: 1.2em;
+  line-height: 90%;
+  margin: 20% 5%;
+  overflow: hidden;
+  letter-spacing: 2px;
+  font-weight: 100%;
+  position: absolute;
+  width: 100%;
+  min-height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+}
+.overlay:hover {
+  display: none;
+  text-align: center;
+  transition: all 10s ease;
+}
+.contact {
+  background: url(../images/backgrounds/c_image.jpg);
+  background-size: cover;
+  padding-top: 3%;
+  color: white;
+}
+
+input {
+  width: 50%;
+}
+#name {
+  background-color: transparent;
+  outline: none;
+  box-shadow: none;
+  color: whitesmoke;
+  padding: 1px;
+  margin: 1px;
+}
+#message {
+  background-color: transparent;
+  outline: none;
+  box-shadow: none;
+  color: whitesmoke;
+}
+#email {
+  background-color: transparent;
+  outline: none;
+  box-shadow: none;
+  color: whitesmoke;
+}
+#form::placeholder {
+  color: white;
+  width: 100%;
+}
+.button {
+  border: none;
+  width: 100%;
+  padding: 4px;
 }
