@@ -15,3 +15,23 @@
   padding: 15px;
   margin-top: 5%;
 }
+.about {
+  background-color: whitesmoke;
+  padding: 5%;
+  text-align: center;
+  color: black;
+}
+.services {
+  grid-row-start: 3;
+  grid-row-end: 4;
+  background: url(/images/backgrounds/s_image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding-top: 10%;
+  padding-bottom: 7%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+  font-weight: bold;
+  color: white;
+}
