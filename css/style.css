@@ -1,3 +1,7 @@
+/*...section 1...*/
+body {
+  font-family: "Poppins", sans-serif;
+}
 .welcome {
   background: url(../images/backgrounds/h_img.jpg);
   background-size: cover;
@@ -8,7 +12,6 @@
   height: 100vh;
   width: 100%;
   font-size: larger;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
 }
 .welcome h3 {
@@ -18,11 +21,20 @@
   padding: 15px;
   margin-top: 5%;
 }
+/*...section 2... */
 .about {
   background-color: whitesmoke;
   padding: 5%;
   text-align: center;
   color: black;
+  font-family: "Times New Roman", Times, serif;
+  font-size: large;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.about h2 {
+  margin: 5px;
+  padding: 20px;
 }
 .services {
   grid-row-start: 3;
@@ -37,14 +49,21 @@
   font-size: larger;
   font-weight: bold;
   color: white;
+  margin-bottom: 20px;
 }
+.services h2 {
+  height: -30%;
+  text-decoration: underline;
+}
+/*...section 3...*/
 .toggle {
   text-align: center;
   padding: 3%;
 }
-.text {
+.hide {
   display: none;
 }
+/*...section 4...*/
 .card {
   margin: 10px 0;
   position: relative;
@@ -77,6 +96,7 @@
   min-height: 100%;
   background: rgba(0, 0, 0, 0.8);
   cursor: pointer;
+  display: none;
 }
 .overlay:hover {
   display: none;
