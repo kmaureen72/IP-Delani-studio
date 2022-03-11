@@ -5,4 +5,9 @@ $(document).ready(function () {
       $(this).children(".show").toggle("slow");
     });
   });
-  
+  //script for portfolio section
+  $(document).ready(function () {
+    $(".card").hover(function () {
+      $(this).children(".overlay").fadeToggle("slow");
+    });
+  });
