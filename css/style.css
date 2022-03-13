@@ -16,10 +16,12 @@ body {
 }
 .welcome h3 {
   padding-top: 24px;
+  animation: ease-in 1.3s;
 }
-#mouse {
+#mouse:hover {
   padding: 15px;
   margin-top: 5%;
+  transform: rotateY(90) rotateZ(90);
 }
 /*...section 2... */
 .about {
@@ -29,7 +31,6 @@ body {
   color: black;
   font-family: "Times New Roman", Times, serif;
   font-size: large;
-  font-weight: bold;
   margin-bottom: 20px;
 }
 .about h2 {
@@ -39,7 +40,7 @@ body {
 .services {
   grid-row-start: 3;
   grid-row-end: 4;
-  background: url(/images/backgrounds/s_image.jpg);
+  background: url(../images/backgrounds/s_image.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
@@ -62,6 +63,7 @@ body {
 }
 .hide {
   display: none;
+  transition: all 0.2s ease;
 }
 /*...section 4...*/
 .card {
@@ -107,6 +109,7 @@ body {
   background-size: cover;
   padding-top: 3%;
   color: white;
+  text-decoration-color: aliceblue;
 }
 
 input[type="text"],
@@ -135,4 +138,10 @@ input[type="submit"] {
 #submit:hover {
   background-color: white;
   color: #04aa6d;
+}
+.col-md-12 img:hover {
+  transition: 0.5s ease-in;
+  background: rgb(15, 15, 15);
+  border-radius: 50%;
+  box-shadow: 0 0 25px rgb(116, 109, 109);
 }
