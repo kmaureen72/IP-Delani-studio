@@ -145,3 +145,8 @@ input[type="submit"] {
   border-radius: 50%;
   box-shadow: 0 0 25px rgb(116, 109, 109);
 }
+@media all and (max-width: 760px) {
+  body {
+    background-color: white;
+  }
+}
